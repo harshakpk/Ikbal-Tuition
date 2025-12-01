@@ -3,109 +3,191 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tuition Classes – Economics, Business, Accountancy</title>
+    <title>Ikbal Tuition | Economics, Business Studies & Accountancy</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <!-- Navbar -->
     <header class="navbar">
-        <div class="logo">Tuition Center</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#classes">Classes</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-inner">
+            <div class="logo">Ikbal Tuition</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Expert Coaching in Economics, Business Studies & Accountancy</h1>
-        <p>For School, College, and University Students</p>
-        <a href="#contact" class="btn">Contact Now</a>
-    </section>
-
-    <!-- Classes Section -->
-    <section id="classes" class="classes">
-        <h2>Classes We Provide</h2>
-        <div class="class-cards">
-
-            <div class="card">
-                <h3>Economics</h3>
-                <p>For School, College & University Students</p>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <div class="hero-left">
+                <span class="badge">Commerce Tuition • Since 1997</span>
+                <h1>Expert Coaching in Economics, Business Studies & Accountancy</h1>
+                <p>Personalised guidance for school, college and university students to build strong concepts and score higher.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary">Book a Class</a>
+                    <a href="#classes" class="btn btn-ghost">View Classes</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">28+</span>
+                        <span class="stat-label">Years Teaching</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Students Taught</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Core Subjects</span>
+                    </div>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>Business Studies</h3>
-                <p>For School & College Students</p>
+            <div class="hero-right">
+                <div class="hero-card">
+                    <h2>Focused Commerce Coaching</h2>
+                    <ul>
+                        <li>Concept clarity first, then exams</li>
+                        <li>Regular tests & feedback</li>
+                        <li>Support on past papers</li>
+                        <li>Individual attention in every batch</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="card">
-                <h3>Accountancy</h3>
-                <p>For School, College & University Students</p>
-            </div>
-
         </div>
     </section>
 
-    <!-- About the Tutor -->
-    <section id="about" class="about">
-        <h2>About the Tutor</h2>
-        <p><strong>Mr. Ikbal</strong> brings <strong>28 years of teaching experience</strong> with expertise built across leading institutions such as:</p>
+    <main>
+        <!-- Classes Section -->
+        <section id="classes" class="section">
+            <div class="container">
+                <h2 class="section-title">Classes We Provide</h2>
+                <p class="section-subtitle">Specialised coaching for Commerce stream students at different levels.</p>
 
-        <ul>
-            <li>MES Qatar</li>
-            <li>Noor Al Khaleej</li>
-            <li>Newton (School & University)</li>
-            <li>And several other reputed institutions</li>
-        </ul>
+                <div class="grid cards-3">
+                    <article class="card">
+                        <h3>Economics</h3>
+                        <p>School, college & university level coaching with a focus on real-world understanding and scoring techniques.</p>
+                        <ul class="pill-list">
+                            <li>Micro & Macro</li>
+                            <li>Statistics</li>
+                            <li>Exam strategy</li>
+                        </ul>
+                    </article>
 
-        <p>He is passionate about simplifying concepts, improving student performance, and helping learners build a strong academic foundation.</p>
-    </section>
+                    <article class="card">
+                        <h3>Business Studies</h3>
+                        <p>Structured notes, case-study discussions and exam-oriented preparation for school & college students.</p>
+                        <ul class="pill-list">
+                            <li>CBSE & other boards</li>
+                            <li>Case-based learning</li>
+                            <li>Revision plans</li>
+                        </ul>
+                    </article>
 
-    <!-- Testimonials -->
-    <section id="testimonials" class="testimonials">
-        <h2>Students’ Testimonials</h2>
-        <div class="testimonials-container">
-
-            <div class="testimonial-card">
-                <p>“Sir explains difficult concepts very simply. My grades improved a lot!”</p>
-                <span>- Aisha, Grade 11</span>
+                    <article class="card">
+                        <h3>Accountancy</h3>
+                        <p>From basics to advanced concepts with lots of practice problems and past-paper coverage.</p>
+                        <ul class="pill-list">
+                            <li>Financial accounting</li>
+                            <li>Cost & management</li>
+                            <li>University support</li>
+                        </ul>
+                    </article>
+                </div>
             </div>
+        </section>
 
-            <div class="testimonial-card">
-                <p>“Highly recommended for Commerce students. Very supportive teaching.”</p>
-                <span>- Rahul, B.Com Student</span>
+        <!-- About Section -->
+        <section id="about" class="section section-soft">
+            <div class="container about-grid">
+                <div>
+                    <h2 class="section-title align-left">About the Tutor</h2>
+                    <p class="section-subtitle align-left">Guided by a highly experienced Commerce educator.</p>
+
+                    <p><strong>Mr. Ikbal</strong> brings <strong>28 years of teaching experience</strong>, guiding Commerce students across multiple curriculums and levels.</p>
+                    <p>He has taught in reputed institutions including:</p>
+                    <ul class="about-list">
+                        <li>MES Qatar</li>
+                        <li>Noor Al Khaleej</li>
+                        <li>Newton (School & University)</li>
+                        <li>And several other renowned institutions</li>
+                    </ul>
+                    <p>His approach focuses on building strong concepts, simplifying difficult topics and helping students gain confidence in exams.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Why students choose Sir Ikbal</h3>
+                    <ul>
+                        <li>Clear explanations with real-life examples</li>
+                        <li>Structured notes and regular practice</li>
+                        <li>Support for board, college & university exams</li>
+                        <li>Patient, supportive and exam-focused teaching</li>
+                    </ul>
+                </div>
             </div>
+        </section>
 
-            <div class="testimonial-card">
-                <p>“Clear explanations and exam-focused sessions helped me score high.”</p>
-                <span>- Mariam, 12th Grade</span>
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2 class="section-title">Students’ Testimonials</h2>
+                <p class="section-subtitle">Some words from students who studied under Sir Ikbal.</p>
+
+                <div class="grid cards-3">
+                    <article class="testimonial-card">
+                        <p>“Sir explains difficult concepts in a very simple way. My Economics marks improved a lot within one term.”</p>
+                        <span class="testimonial-name">Aisha, Grade 11</span>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p>“Highly recommended for Commerce students. Classes are exam-focused but also help you really understand the subject.”</p>
+                        <span class="testimonial-name">Rahul, B.Com Student</span>
+                    </article>
+
+                    <article class="testimonial-card">
+                        <p>“Accountancy became much easier with regular practice and doubt-clearing sessions. I felt confident in the board exam.”</p>
+                        <span class="testimonial-name">Mariam, Grade 12</span>
+                    </article>
+                </div>
             </div>
+        </section>
 
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Get in touch to know class timings, fees, and availability.</p>
-
-        <form id="contactForm">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <input type="tel" placeholder="Phone Number" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Submit</button>
-        </form>
-    </section>
+        <!-- Contact Section -->
+        <section id="contact" class="section section-soft">
+            <div class="container contact-grid">
+                <div>
+                    <h2 class="section-title align-left">Contact</h2>
+                    <p class="section-subtitle align-left">Get in touch to know class timings, fees and available batches.</p>
+                    <div class="contact-info">
+                        <p><strong>Ideal for:</strong> School, college & university Commerce students.</p>
+                        <p>Share your details and we will get back to you with suitable batch options.</p>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required />
+                    <input type="email" id="email" placeholder="Your Email" required />
+                    <input type="tel" id="phone" placeholder="Phone Number" required />
+                    <textarea id="message" rows="4" placeholder="Your Message / Class details" required></textarea>
+                    <button type="submit" class="btn btn-primary full-width">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <p>© 2025 Tuition Center. All Rights Reserved.</p>
+        <div class="container footer-inner">
+            <p>© 2025 Ikbal Tuition. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
